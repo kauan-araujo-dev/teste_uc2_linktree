@@ -6,8 +6,17 @@
     box-sizing: border-box;
 }
 body{
+<<<<<<< Updated upstream
     background: linear-gradient(180deg, #c300ff, #000) ;
     font-family: "Poppins", sans-serif;
+=======
+    background-color: linear-gradient(180deg, #c300ff, #000);
+}
+main{
+    width: 100%;
+    justify-content: center;
+    height: 100vh;
+>>>>>>> Stashed changes
 }
 
 #conteudo_principal{
@@ -20,6 +29,7 @@ body{
 #informacoes_links{
     display: flex;
     flex-direction: column;
+<<<<<<< Updated upstream
     align-items: center;
     gap: 30px;
     width: 30%;
@@ -110,3 +120,13 @@ body{
     font-size: 15px;
 }
 }
+=======
+    gap: 30px;
+}
+
+img{
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+}
+>>>>>>> Stashed changes
